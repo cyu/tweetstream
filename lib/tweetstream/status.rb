@@ -3,7 +3,7 @@
 class TweetStream::Status < TweetStream::Hash
   def initialize(hash)
     super
-    self[:user] = TweetStream::User.new(self[:user])
+    self[:user] = TweetStream::User.new(self[:user]) if self[:user]
   end
   
   def id
