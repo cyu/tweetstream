@@ -3,6 +3,10 @@
 TweetStream provides simple Ruby access to Twitter's Streaming API
 (http://apiwiki.twitter.com/Streaming-API-Documentation).
 
+This fork has been modified to support the site_streams API currently in Beta. 
+
+We have also added support for location-based queries to the streaming API. 
+
 == Installation
     
 To install from Gemcutter:
