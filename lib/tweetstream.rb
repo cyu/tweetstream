@@ -1,3 +1,4 @@
+require 'tweetstream/connection'
 require 'tweetstream/client'
 require 'tweetstream/hash'
 require 'tweetstream/status'
